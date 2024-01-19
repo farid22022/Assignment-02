@@ -254,7 +254,7 @@ main {
   margin-bottom: 0;
 }
 
-.pacekage1 {
+.package1 {
   background-image: url('../Images/Group\ 39.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -266,7 +266,7 @@ main {
   margin-right: 50px;
   margin-bottom: 24px;
 }
-.pacekage2 {
+.package2 {
   background-image: url('../Images/Group\ 40.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -394,6 +394,16 @@ main {
 
   nav li a{
       display: inline-block;
+  }
+  .package2,.package1 {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 24px;
+    border-radius: 16px;
   }
   
 }
