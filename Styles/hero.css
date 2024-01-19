@@ -186,19 +186,18 @@ main {
 }  */
 
 .countries1 {
-  height: 400px;
-  display: flex;
+  display: grid;
+  grid-template-columns:574px 574px;
+  height: 286px;
   gap: 26px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: -80px;
+  margin-top: 20px;
 }
 .countries2 {
   display: grid;
   grid-template-columns: 375px 474px 274px;
   height: 286px;
   gap: 26px;
-  margin-top: -40px;
+  margin-top: 30px;
 }
 .countries3 {
   display: grid;
@@ -207,6 +206,32 @@ main {
   gap: 26px;
   margin-top: 20px;
 }
+
+
+.why-choose {
+  justify-content: center;
+  text-align: center;
+}
+
+.hotel-services-1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 50px;
+}
+.hotel-services-2 {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:600px){
   .banner {
@@ -217,9 +242,15 @@ main {
   }
   nav ,
   .banner-nav ,
-  .popular-tour{
+  .popular-tour,
+  .country-side{
       display: grid;
-      grid-template-columns: row-reverse;
+      grid-template-columns: column-reverse;
+  }
+  .countries1{
+    display: grid;
+    grid-template-columns: row-reverse;
+    /* display: none; */
   }
   .popular-tour{
     margin: 0px;
