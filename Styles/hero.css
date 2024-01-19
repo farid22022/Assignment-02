@@ -243,7 +243,8 @@ main {
   nav ,
   .banner-nav ,
   .popular-tour,
-  .country-side{
+  .country-side,
+  .hotel-services-1{
       display: grid;
       grid-template-columns: column-reverse;
   }
