@@ -229,9 +229,7 @@ main {
   text-align: center;
   font-family: Mulish;
   font-size: 40px;
-  font-style: normal;
   font-weight: 800;
-  line-height: normal;
 }
 .Deal-Discount p {
   text-align: center;
@@ -335,6 +333,50 @@ main {
   font-weight: 800;
   line-height: normal;
 }
+
+.buton .btn {
+  color: #FFF;
+  background-color: #FF5400;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  border-radius: 5px;
+  border: #FF5400;
+}
+.buton {
+  margin-left: 45%;
+}
+.video-description .btn{
+  color: #FFF;
+  background-color: #FF5400;
+  border: #FF5400;
+  border-radius: 6px;
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.video-container {
+  display:grid;
+  /* justify-content: space-between; */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+  margin: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
